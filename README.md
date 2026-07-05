@@ -95,37 +95,6 @@ The API will be available at http://127.0.0.1:8000/api/.
 - `GET /api/events/?status=upcoming` - Filter by status
 - `GET /api/events/?venue=bangalore` - Filter by venue (case-insensitive)
 
-Example event payload:
-
-```json
-{
-  "title": "PyCon India 2025",
-  "venue": "NIMHANS Convention Centre, Bangalore",
-  "date": "2025-09-20",
-  "total_seats": 500,
-  "available_seats": 500,
-  "status": "upcoming"
-}
-```
-
-### Reservations
-
-- `GET /api/reservations/` - List reservations
-- `POST /api/reservations/` - Create a reservation
-- `POST /api/reservations/{id}/cancel/` - Cancel a reservation and restore seats
-- `GET /api/reservations/?event_id=1` - Filter reservations by event ID
-
-Example reservation payload:
-
-```json
-{
-  "event": 1,
-  "attendee_name": "Priya Sharma",
-  "attendee_email": "priya@example.com",
-  "seats_reserved": 2
-}
-```
-
 ## Postman Testing Checklist Guide
 
 Here is the step-by-step walkthrough to check off every single item on your testing checklist using Postman.
