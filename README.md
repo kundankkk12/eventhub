@@ -40,7 +40,13 @@ eventhub/
 
 ## Installation
 
-1. Clone or enter the project directory.
+1. Clone the repository from GitHub.
+
+```bash
+git clone https://github.com/kundankkk12/eventhub.git
+cd eventhub
+```
+
 2. Create and activate a virtual environment based on your operating system.
 
 ### Windows
