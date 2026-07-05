@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EventHub API
 
 EventHub is a Django REST Framework project for managing events and seat reservations. It supports event creation, reservation handling, seat availability validation, cancellation flow, and request logging.
@@ -114,3 +115,4 @@ Example log output:
 INFO 2026-07-05 10:14:22,104 events.middleware POST /api/events/ - 201 - 0.04s
 INFO 2026-07-05 10:15:01,837 events.middleware GET /api/events/?status=upcoming - 200 - 0.02s
 ```
+=======
